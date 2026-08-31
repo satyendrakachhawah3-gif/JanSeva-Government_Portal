@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin-portal
+Disallow: /officer-portal
+Disallow: /api/
+
+Sitemap: https://janseva.ai/sitemap.xml
