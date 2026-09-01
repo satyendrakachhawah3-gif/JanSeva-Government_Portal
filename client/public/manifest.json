@@ -1,0 +1,16 @@
+{
+  "short_name": "JanSeva AI",
+  "name": "JanSeva AI - Government Scheme & Citizen Service Portal",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0B2545",
+  "display": "standalone",
+  "orientation": "portrait"
+}
