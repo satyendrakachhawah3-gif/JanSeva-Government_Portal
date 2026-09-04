@@ -1,0 +1,16 @@
+/* TEAM */
+  Developer: Satyendra Kachhawah
+  Contact: satyendrakachhawah3@gmail.com
+  GitHub: https://github.com/satyendrakachhawah3-gif
+  Project: JanSeva AI Government Portal
+  Location: India
+
+/* SITE */
+  Standards: HTML5, CSS3, ES6+, WAI-ARIA Accessible
+  Components: React 18, Vite, TailwindCSS, Lucide Icons, Recharts, Leaflet
+  Backend: Node.js, Express, MongoDB, Mongoose, TF-IDF RAG NLP
+  AI Assistant: JanSeva Voice & Multi-lingual Chatbot
+
+/* THANKS */
+  Open Source Community
+  Government Public Data Initiative
