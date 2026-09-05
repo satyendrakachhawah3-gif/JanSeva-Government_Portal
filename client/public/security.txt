@@ -1,0 +1,8 @@
+# JanSeva AI Government Portal Security Policy
+Contact: mailto:security@janseva.gov.in
+Contact: https://janseva.gov.in/security-report
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en, hi
+Canonical: https://janseva.gov.in/security.txt
+Policy: https://janseva.gov.in/security-policy
+Hiring: https://janseva.gov.in/careers
