@@ -1,42 +1,32 @@
 /**
- * Frontend Dropdown Options & Metadata Dictionary
+ * JanSeva AI Application Constants and Enums
  */
 
-export const INDIAN_STATES = [
-  'All India',
-  'Maharashtra',
-  'Delhi',
-  'Karnataka',
-  'Gujarat',
-  'Uttar Pradesh',
-  'Tamil Nadu',
-  'Rajasthan',
-  'West Bengal',
-  'Madhya Pradesh',
-  'Punjab',
-  'Kerala'
-];
-
 export const SCHEME_CATEGORIES = [
-  'Education',
-  'Agriculture',
-  'Employment',
-  'Women & Child Welfare',
-  'Health',
-  'Housing',
-  'Financial Assistance',
-  'Entrepreneurship',
-  'Senior Citizens',
-  'Disability Support',
-  'Social Welfare'
+  'Agriculture & Farming',
+  'Education & Scholarships',
+  'Healthcare & Wellness',
+  'Housing & Infrastructure',
+  'Women & Child Development',
+  'Employment & Skill Development',
+  'Senior Citizen Welfare',
+  'Financial Inclusion & Banking'
 ];
 
-export const OCCUPATIONS = [
-  'Student',
-  'Farmer',
-  'Unemployed',
-  'Self Employed',
-  'Private Service',
-  'Government Service',
-  'Other'
+export const APPLICATION_STATUS = {
+  PENDING: 'Pending',
+  UNDER_REVIEW: 'Under Review',
+  APPROVED: 'Approved',
+  REJECTED: 'Rejected'
+};
+
+export const INDIAN_STATES = [
+  'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh',
+  'Goa', 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jharkhand', 'Karnataka',
+  'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram',
+  'Nagaland', 'Odisha', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu',
+  'Telangana', 'Tripura', 'Uttar Pradesh', 'Uttarakhand', 'West Bengal',
+  'Delhi NCR', 'Jammu & Kashmir', 'Ladakh'
 ];
+
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
