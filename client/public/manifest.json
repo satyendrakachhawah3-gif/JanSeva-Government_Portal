@@ -1,16 +1,29 @@
 {
   "short_name": "JanSeva AI",
-  "name": "JanSeva AI - Government Scheme & Citizen Service Portal",
+  "name": "JanSeva AI - Government Welfare Schemes Portal",
+  "description": "AI-powered Citizen Facilitation & Government Welfare Scheme Platform",
   "icons": [
     {
-      "src": "favicon.svg",
-      "sizes": "192x192 512x512",
-      "type": "image/svg+xml"
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "background_color": "#F8FAFC",
-  "theme_color": "#0B2545",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN"
 }
