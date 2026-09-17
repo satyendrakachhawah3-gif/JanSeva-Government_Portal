@@ -1,0 +1,4 @@
+# JanSeva AI Government Portal - Non-Commercial Ad Compliance
+# This public welfare web platform does not sell advertising space.
+# No authorized advertising networks or reseller exchanges exist for this domain.
+# Ref: IAB Tech Lab Ads.txt Specification
