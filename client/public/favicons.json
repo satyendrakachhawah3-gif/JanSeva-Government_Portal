@@ -1,0 +1,17 @@
+{
+  "appName": "JanSeva AI",
+  "appShortName": "JanSeva",
+  "appDescription": "AI Government Welfare Schemes Portal",
+  "developerName": "Satyendra Kachhawah",
+  "developerURL": "https://github.com/satyendrakachhawah3-gif",
+  "background": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "icons": {
+    "android": true,
+    "appleIcon": true,
+    "appleStartup": false,
+    "favicons": true,
+    "windows": true,
+    "yandex": false
+  }
+}
