@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/assets/index.css",
+    "main.js": "/assets/index.js",
+    "index.html": "/index.html",
+    "favicon.ico": "/favicon.ico",
+    "manifest.json": "/manifest.json",
+    "robots.txt": "/robots.txt",
+    "sitemap.xml": "/sitemap.xml"
+  },
+  "entrypoints": [
+    "assets/index.css",
+    "assets/index.js"
+  ]
+}
