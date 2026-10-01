@@ -1,25 +1,31 @@
-const AuditLog = require('../models/AuditLog');
+/**
+ * Admin Administrative Action Audit Logger Middleware
+ * Logs officer state changes, scheme status updates, and deletions for governance transparency
+ */
 
-const logAuditAction = (action, targetEntity) => {
-  return async (req, res, next) => {
-    res.on('finish', async () => {
-      if (res.statusCode < 400 && req.user) {
-        try {
-          await AuditLog.create({
-            action,
-            performedBy: req.user.id,
-            targetEntity,
-            targetId: req.params.id || req.body.applicationId || '',
-            ipAddress: req.ip || req.connection.remoteAddress,
-            timestamp: new Date()
-          });
-        } catch (err) {
-          console.error('[AuditLogger] Error writing audit log:', err.message);
-        }
+const auditLogger = (actionType) => {
+  return (req, res, next) => {
+    res.on('finish', () => {
+      // Only audit successful state mutations (2xx)
+      if (res.statusCode >= 200 && res.statusCode < 300) {
+        const adminId = req.user ? (req.user._id || req.user.id) : 'SYSTEM/ANONYMOUS';
+        const targetUrl = req.originalUrl;
+        const ip = req.ip || req.headers['x-forwarded-for'] || 'unknown';
+
+        const auditRecord = {
+          timestamp: new Date().toISOString(),
+          action: actionType,
+          adminId,
+          targetUrl,
+          ip,
+          statusCode: res.statusCode
+        };
+
+        console.log(`[AUDIT TRAIL] Action: ${auditRecord.action} | Admin: ${auditRecord.adminId} | URL: ${auditRecord.targetUrl} | IP: ${auditRecord.ip}`);
       }
     });
     next();
   };
 };
 
-module.exports = logAuditAction;
+module.exports = auditLogger;
