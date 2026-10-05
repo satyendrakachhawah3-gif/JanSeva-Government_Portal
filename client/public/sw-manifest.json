@@ -1,0 +1,16 @@
+{
+  "version": "1.4.0",
+  "cacheName": "janseva-static-v1.4",
+  "urlsToCache": [
+    "/",
+    "/index.html",
+    "/favicon.ico",
+    "/manifest.json",
+    "/offline.html"
+  ],
+  "networkFirstRoutes": [
+    "/api/schemes/recommend",
+    "/api/applications/my",
+    "/api/assistant/chat"
+  ]
+}
