@@ -1,0 +1,7 @@
+# Canonical RFC 9116 Location for Security Disclosure
+Contact: mailto:security@janseva.gov.in
+Contact: https://janseva.gov.in/security-report
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en, hi
+Canonical: https://janseva.gov.in/.well-known/security.txt
+Policy: https://janseva.gov.in/security-policy
